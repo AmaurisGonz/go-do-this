@@ -40,16 +40,16 @@ Task names can contain spaces; no quotes are needed.
 ### Examples
 
 go run . add Buy groceries
-Added: | 1 | Buy groceries |
+> Added: | 1 | Buy groceries |
 
 go run . add Finish report
-Added: | 2 | Finish report |
+> Added: | 2 | Finish report |
 
 go run . done 1
-Completed: | 1 | Buy groceries |
+> Completed: | 1 | Buy groceries |
 
 go run . edit 2 Finish quarterly report
-Edited: | 2 | Finish quarterly report |
+> Edited: | 2 | Finish quarterly report |
 
 go run . print
 
