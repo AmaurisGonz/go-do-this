@@ -53,13 +53,11 @@ go run . edit 2 Finish quarterly report
 
 go run . print
 
-
 The print command shows a table of the form:
 
-
-| ID | Task Name                | Completion |
-| 1  | Buy groceries            |    [--]    |
-| 2  | Finish quarterly report  |    [  ]    |
+> | ID | Task Name                | Completion |
+> | 1  | Buy groceries            |    [--]    |
+> | 2  | Finish quarterly report  |    [  ]    |
 
 
 A [--] mark means the task is complete.
